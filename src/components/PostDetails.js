@@ -46,7 +46,7 @@ const PostDetails = (props) => {
         <Typography className={classes.date}>{post.date}</Typography>
         <Typography variant='body1'>{post.body}</Typography>
         <hr />
-        <CommentList comments={post.comments} postId={post.id} />
+        <CommentList comments={post.comments} />
       </>
     )
   }
